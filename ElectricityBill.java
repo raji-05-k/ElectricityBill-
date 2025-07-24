@@ -11,7 +11,7 @@ public class ElectricityBill {
         System.out.print("Enter Units Consumed: ");
         int units = sc.nextInt();
 
-        double bill = 0;
+        double bill;
 
         // Slab calculation
         if (units <= 100) {
